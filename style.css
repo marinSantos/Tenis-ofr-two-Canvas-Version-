@@ -1,0 +1,43 @@
+* {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #01341db2;
+    font-family: sans-serif;
+}
+
+audio {
+    visibility: hidden;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    background-color: #01341D;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+button:hover {
+    filter: brightness(0.8);
+}
+
+h1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    color: #ffffff;
+}
