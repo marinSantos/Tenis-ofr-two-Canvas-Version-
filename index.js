@@ -37,7 +37,7 @@ const score = {
     increaseHuman: function () {
         this.human++
         switch (this.human) {
-            case 3:
+            case 10:
                 ball._stop()
                 rightPadle._stop()
                 this.human = 0
@@ -53,7 +53,7 @@ const score = {
     increaseComputer: function () {
         this.computer++
         switch (this.computer) {
-            case 3:
+            case 10:
                 ball._stop()
                 rightPadle._stop()
                 this.human = 0
